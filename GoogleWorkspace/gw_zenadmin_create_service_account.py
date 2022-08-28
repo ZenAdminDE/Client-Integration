@@ -73,7 +73,7 @@ SCOPES = [
     "https://www.googleapis.com/auth/gmail.modify",
     "https://www.googleapis.com/auth/tasks",
     "https://sites.google.com/feeds",
-    "https://www.googleapis.com/auth/gmail"
+    "https://www.googleapis.com/auth/gmail.send"
 ]
 DWD_URL_FORMAT = ("https://admin.google.com/ac/owl/domainwidedelegation?"
                   "overwriteClientId=true&clientIdToAdd={}&clientScopeToAdd={}")
