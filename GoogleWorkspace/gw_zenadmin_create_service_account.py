@@ -55,24 +55,24 @@ APIS = [
     "calendar-json.googleapis.com",
     "contacts.googleapis.com",
     "gmail.googleapis.com",
-    "groupsmigration.googleapis.com"
+    "groupsmigration.googleapis.com",
+    "cloudidentity.googleapis.com"
 ]
 # List of scopes required for service account.
 SCOPES = [
-    "https://apps-apis.google.com/a/feeds/emailsettings/2.0/",
-    "https://www.googleapis.com/auth/contacts",
+    "https://www.googleapis.com/auth/admin.directory.user",
+    "https://www.googleapis.com/auth/admin.directory.user.security",
+    "https://www.googleapis.com/auth/admin.directory.customer",
     "https://www.googleapis.com/auth/admin.directory.group",
     "https://www.googleapis.com/auth/admin.directory.group.member",
     "https://www.googleapis.com/auth/admin.directory.orgunit",
-    "https://www.googleapis.com/auth/admin.directory.resource.calendar",
-    "https://www.googleapis.com/auth/admin.directory.user",
-    "https://www.googleapis.com/auth/apps.groups.migration",
-    "https://www.googleapis.com/auth/apps.groups.settings",
-    "https://www.googleapis.com/auth/calendar",
-    "https://www.googleapis.com/auth/drive",
-    "https://www.googleapis.com/auth/gmail.modify",
-    "https://www.googleapis.com/auth/tasks",
-    "https://sites.google.com/feeds"
+    "https://www.googleapis.com/auth/admin.directory.domain",
+    "https://www.googleapis.com/auth/admin.datatransfer",
+    "https://www.googleapis.com/auth/admin.reports.audit.readonly",
+    "https://www.googleapis.com/auth/cloud-identity",
+    "https://www.googleapis.com/auth/cloud-identity.devices",
+    "https://www.googleapis.com/auth/cloud-identity.devices.lookup",
+    "https://www.googleapis.com/auth/cloud-identity.groups"
 ]
 DWD_URL_FORMAT = ("https://admin.google.com/ac/owl/domainwidedelegation?"
                   "overwriteClientId=true&clientIdToAdd={}&clientScopeToAdd={}")
